@@ -3,7 +3,7 @@ CREATE DATABASE auth;
 
 CREATE TABLE `paquet` (
   `id` int(11) NOT NULL,
-  `dateenreg` datetime NOT NULL,
+  `dateenreg` datetime NOT NULL  AUTO_INCREMENT PRIMARY KEY,
   `recu` text NOT NULL,
   `emis` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
