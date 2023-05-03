@@ -1,4 +1,5 @@
 
+CREATE DATABASE auth;
 
 CREATE TABLE `paquet` (
   `id` int(11) NOT NULL,
